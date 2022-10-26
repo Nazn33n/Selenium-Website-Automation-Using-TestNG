@@ -32,5 +32,6 @@ public class LoginPage {
         txtPassword.sendKeys(password);
         btnLogin.click();
         return txtTitle.isDisplayed();
+        //Nazneen Changed
     }
 }
